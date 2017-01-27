@@ -81,7 +81,7 @@ namespace CoffeeTip.UITests
             Assert.AreEqual("Total: $5.00", screen.TotalText);
             Assert.AreEqual("Tip: $0.00", screen.TipText);
 
-            app.Screenshot("Total is $5.00 with $0.00 tip");
+            app.Screenshot("Total is $5.00 with $0.00 tips");
         }
 
 
